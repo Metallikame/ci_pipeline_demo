@@ -9,7 +9,7 @@ Simuler un pipeline d'intégration continue avec une fonction Python simple.
 - `run_pipeline.sh` : Script d'automatisation
 
 ## Exécution
-1. Assurez-vous d'avoir Python 3 installé.
+1. Assurez-vous d'avoir Python installé.
 2. Rendez le script exécutable :
    ```bash
-   chmod +x run_pipeline.sh
+   ./run_pipeline.sh
