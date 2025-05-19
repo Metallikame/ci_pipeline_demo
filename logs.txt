@@ -13,3 +13,6 @@ if ! pycodestyle main.py > style.log; then
 else
     echo "✅ Style conforme PEP8."
 fi
+Mon May 19 17:09:11     2025 - SUCCÈS
+Mon May 19 17:11:05     2025 - SUCCÈS
+Mon May 19 17:12:22     2025 - SUCCÈS

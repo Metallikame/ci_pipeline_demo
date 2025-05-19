@@ -1,0 +1,11 @@
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Fichiers de logs
+output.log
+logs.txt
+style_report.txt
+
+# Fichiers système
+.DS_Store
