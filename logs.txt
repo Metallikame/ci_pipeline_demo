@@ -1,0 +1,15 @@
+
+---
+
+### 🎁 Partie 5 – Bonus
+
+**Simuler une vérification de style PEP8** avec `pycodestyle` :
+Ajoutez ceci dans `run_pipeline.sh` après les tests :
+```bash
+echo "Étape 1b : Vérification du style avec pycodestyle..."
+if ! pycodestyle main.py > style.log; then
+    echo "⚠️ Problèmes de style détectés dans main.py"
+    cat style.log
+else
+    echo "✅ Style conforme PEP8."
+fi
